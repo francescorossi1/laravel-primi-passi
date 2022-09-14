@@ -7,9 +7,9 @@
     <title>Laravel Home</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <?php foreach($data as $student) : ?>
-        <p><?= $student ?></p>
-    <?php endforeach ?>
+    <h1>Hello World!</h1> 
+    @foreach ($data as $student)
+        <p>{{$student}}</p>
+    @endforeach
 </body>
 </html>
